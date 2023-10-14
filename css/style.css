@@ -68,8 +68,7 @@ a:hover {
 */
 
 .gallery {
-    display: flex;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    display: grid;
     flex-flow: row wrap;
 }
 
