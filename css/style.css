@@ -69,7 +69,6 @@ a:hover {
 
 .gallery {
     display: grid;
-    flex-flow: row wrap;
 }
 
 .gallery-item {
