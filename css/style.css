@@ -63,22 +63,20 @@ section {
     overflow: auto; /* Enable scrolling within sections */
     padding: 20px; /* Add padding to sections if needed */
 }
-
-.section1 {
-    padding: 20px;
-    background-color: #fff;
-    display: block; /* Ensure each section is a block element */
-    clear: both; /* Clear any floated elements (if any) */
-}
-
-.section2 {
-    padding: 20px;
-    background-color: #fff;
-    display: block; /* Ensure each section is a block element */
-    clear: both; /* Clear any floated elements (if any) */
-}
-
-.section3 {
+.section1,
+.section2,
+.section3,
+.section4,
+.section5,
+.section6,
+.section7,
+.section8,
+.section9,
+.section10,
+.section11,
+.section12,
+.section13,
+.section14 {
     padding: 20px;
     background-color: #fff;
     display: block; /* Ensure each section is a block element */
