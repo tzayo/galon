@@ -72,11 +72,17 @@ section {
 }
 
 .section2 {
-    background-color: #eee;
+    height: 100vh; /* Make each section take the full viewport height */
+    background-color: #eee; /* Set section background color */
+    overflow: auto; /* Enable scrolling within sections */
+    padding: 20px; /* Add padding to sections if needed */
 }
 
 .section3 {
-    background-color: #ccc;
+    height: 100vh; /* Make each section take the full viewport height */
+    background-color: #ccc; /* Set section background color */
+    overflow: auto; /* Enable scrolling within sections */
+    padding: 20px; /* Add padding to sections if needed */
 }
 
 footer {
@@ -89,12 +95,14 @@ footer {
 /* Gallery Styles */
 
 .gallery {
+    height: 100vh; /* Make each section take the full viewport height */
     display: flex;
     flex-wrap: wrap;
     max-width: 100%;
 }
 
 .gallery-item {
+    height: 100vh; /* Make each section take the full viewport height */
     max-width: 100%;
     width: 100%;
     margin: 10px;
