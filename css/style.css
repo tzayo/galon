@@ -89,6 +89,8 @@ footer {
 }
 
 .gallery-item {
+    max-width: 100%;
+    width: 100%;
     margin: 10px;
     border: 1px solid #ddd;
     border-radius: 5px;
