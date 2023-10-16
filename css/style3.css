@@ -1,0 +1,174 @@
+
+/* Header Styles */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+h2, h3, p {
+    margin: 0;
+    padding: 5px;
+    margin-top: 10px;
+
+}
+
+h2 {
+    font-size: 18px;
+}
+
+h3 {
+    font-size: 16px;
+}
+
+p {
+    font-size: 14px;
+}
+
+a {
+
+    display: inline-block;
+    margin-top: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+/* Link Styles */
+a:hover {
+    background-color: #0056b3;
+}
+
+nav {
+    background-color: #444;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 20px;
+}
+
+section {
+    height: 100vh; /* Make each section take the full viewport height */
+    background-color: #fff; /* Set section background color */
+    overflow: auto; /* Enable scrolling within sections */
+    padding: 20px; /* Add padding to sections if needed */
+}
+.section1,
+.section2,
+.section3,
+.section4,
+.section5,
+.section6,
+.section7,
+.section8,
+.section9,
+.section10,
+.section11,
+.section12,
+.section13,
+.section14 {
+    height: 100vh; /* Make each section take the full viewport height */
+    background-color: #fff; /* Set section background color */
+    overflow: auto; /* Enable scrolling within sections */
+    padding: 20px; /* Add padding to sections if needed */
+    display: block; /* Ensure each section is a block element */
+    clear: both; /* Clear any floated elements (if any) */
+}
+
+footer {
+    background-color: #444;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Gallery Styles */
+
+.gallery {
+    height: 100vh; /* Make each section take the full viewport height */
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+}
+
+.gallery-item {
+    height: 100vh; /* Make each section take the full viewport height */
+    max-width: 100%;
+    width: 100%;
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    width: calc(33.33% - 10px); /* Adjust for 3 columns with spacing */
+    padding: 15px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.gallery-item img {
+    max-width: 100%;
+    display: block;
+}
+
+.gallery-item video {
+    width: 100%;
+    display: block;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.description {
+    background-color: #fff;
+}
+
+/* Full-screen layout */
+html, body {
+    height: 100%;
+}
+
+/* Body and Page Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden; /* Enable scrolling */
+}
+
+/* Media queries for smaller screens */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px; /* Adjust font size */
+    }
+
+    /* Adjust other styles as needed for smaller screens */
+}
+
+@media (max-width: 480px) {
+    body {
+        font-size: 12px; /* Further font size adjustment for very small screens */
+    }
+}
