@@ -57,33 +57,6 @@ nav li {
     margin: 0 20px;
 }
 
-section {
-    height: 100vh; /* Make each section take the full viewport height */
-    background-color: #fff; /* Set section background color */
-    overflow: auto; /* Enable scrolling within sections */
-    padding: 20px; /* Add padding to sections if needed */
-}
-.section1,
-.section2,
-.section3,
-.section4,
-.section5,
-.section6,
-.section7,
-.section8,
-.section9,
-.section10,
-.section11,
-.section12,
-.section13,
-.section14 {
-    height: 100vh; /* Make each section take the full viewport height */
-    background-color: #fff; /* Set section background color */
-    overflow: auto; /* Enable scrolling within sections */
-    padding: 20px; /* Add padding to sections if needed */
-    display: block; /* Ensure each section is a block element */
-    clear: both; /* Clear any floated elements (if any) */
-}
 
 footer {
     background-color: #444;
@@ -126,19 +99,6 @@ footer {
     display: block;
 }
 
-img {
-    max-width: 100%;
-    height: auto;
-}
-
-.description {
-    background-color: #fff;
-}
-
-/* Full-screen layout */
-html, body {
-    height: 100%;
-}
 
 /* Body and Page Styles */
 body {
@@ -147,24 +107,4 @@ body {
     margin: 0;
     padding: 0;
     text-align: center;
-}
-
-
-.container {
-
-}
-
-/* Media queries for smaller screens */
-@media (max-width: 768px) {
-    body {
-        font-size: 14px; /* Adjust font size */
-    }
-
-    /* Adjust other styles as needed for smaller screens */
-}
-
-@media (max-width: 480px) {
-    body {
-        font-size: 12px; /* Further font size adjustment for very small screens */
-    }
 }
