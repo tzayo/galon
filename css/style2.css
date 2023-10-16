@@ -1,7 +1,23 @@
+
 /* Gallery Styles */
 .gallery {
     height: 100vh; /* Make each section take the full viewport height */
     display: flex;
     flex-wrap: wrap;
     max-width: 100%;
+}
+
+.gallery-item {
+    height: 100vh; /* Make each section take the full viewport height */
+    max-width: 100%;
+    width: 100%;
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    width: calc(33.33% - 10px); /* Adjust for 3 columns with spacing */
+    padding: 15px;
+    background-color: #fff;
+    text-align: center;
 }
