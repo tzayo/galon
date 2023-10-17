@@ -42,6 +42,12 @@ img {
     padding-bottom:5px;
     margin:0px 10px;
 }
+
+.pointContent{
+    background:url(../images/organicContent.jpg) repeat-y top center;
+    padding:0px 0px 10px;
+    height:275px;
+}
 /* Gallery Styles */
 .gallery {
     display: flex;
