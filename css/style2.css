@@ -17,7 +17,7 @@
 }
 
 .section {
-    height: 100vh; /* Make each section take the full viewport height */
+    width:auto;
     background-color: #fff; /* Set section background color */
     padding: 20px; /* Add padding to sections if needed */
     display: block; /* Ensure each section is a block element */
@@ -29,6 +29,19 @@ img {
     border:none;	
 }
 
+.point{
+    clear:both;
+    width:980px;
+    margin:15px auto 0px 10px;
+    }
+    
+.pointHolder{
+    float:left;
+    width:300px;
+    background:url(../images/organicHolder.jpg) no-repeat bottom center;
+    padding-bottom:5px;
+    margin:0px 10px;
+}
 /* Gallery Styles */
 .gallery {
     display: flex;
