@@ -3,6 +3,8 @@
     background-color: #fff; /* Set section background color */
     overflow: auto; /* Enable scrolling within sections */
     padding: 20px; /* Add padding to sections if needed */
+    clear: both; /* Clear any floated elements (if any) */
+    display: block; /* Ensure each section is a block element */
 }
 
 /* Gallery Styles */
