@@ -20,7 +20,6 @@
     height: 100vh; /* Make each section take the full viewport height */
     background-color: #fff; /* Set section background color */
     padding: 20px; /* Add padding to sections if needed */
-    clear: both; /* Clear any floated elements (if any) */
     display: block; /* Ensure each section is a block element */
 }
 
@@ -32,7 +31,6 @@ img {
 
 /* Gallery Styles */
 .gallery {
-    height: 100vh; /* Make each section take the full viewport height */
     display: flex;
     flex-wrap: wrap;
     max-width: 100%;
