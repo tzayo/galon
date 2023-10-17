@@ -25,3 +25,8 @@
     max-width: 100%;
     display: block;
 }
+
+.gallery-item video {
+    width: 100%;
+    display: block;
+}
