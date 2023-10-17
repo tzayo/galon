@@ -37,7 +37,7 @@ img {
     
 .pointHolder{
     float:left;
-    width:300px;
+    width:100%;
     background:url(../images/organicHolder.jpg) no-repeat bottom center;
     padding-bottom:5px;
     margin:0px 10px;
