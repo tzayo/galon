@@ -81,8 +81,12 @@ img {
     display: block;
 }
 
-p {
-    font-size: 20px;
+.item-paragraph{
+    font-size: 16px;
+    color: #333;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border: 1px solid #ddd;
 }
 
 h1{
