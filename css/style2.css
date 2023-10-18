@@ -81,7 +81,7 @@ img {
     display: block;
 }
 
-.item-paragraph{
+.p {
     font-size: 16px;
     color: #333;
     background-color: #f0f0f0;
@@ -89,13 +89,13 @@ img {
     border: 1px solid #ddd;
 }
 
-h1{
+h1 {
     font-size:28px;
     line-height:normal;
     margin:5px 0px 10px;
-    }
+}
     
-h3{
+h3 {
     font-size:28px;
     padding:10px;
-    }
+}
