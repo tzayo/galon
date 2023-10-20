@@ -90,6 +90,37 @@ img {
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
 }
 
+/* CSS styles for individual elements inside the div */
+.item h2 {
+    font-size: 24px;
+    color: #333;
+    margin: 0;
+    padding: 5px;
+}
+
+.item h3 {
+    font-size: 18px;
+    color: #666;
+    margin: 10px 0;
+}
+
+.item p {
+    font-size: 16px;
+    color: #777;
+    margin: 5px 0;
+}
+
+.item img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px 0;
+}
+
+.item video {
+    max-width: 100%;
+    display: block;
+}
 .p {
     font-size: 16px;
     color: #333;
