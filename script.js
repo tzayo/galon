@@ -1,21 +1,51 @@
 function initMap() {
-    const map = new google.maps.Map(document.getElementById('map'), {
-        zoom: 5, // Adjust the zoom level as needed
-        center: { lat: 51.5074, lng: -0.1278 }, // Set the initial center of the map
-    });
+    // Set the initial center and zoom level of the map
+    const initialCenter = {
+        lat: 28.6139, // Default latitude
+        lng: 77.2090, // Default longitude
+    };
 
-    // Define an array of locations (latitude and longitude) and city names
-    const locations = [
-        { lat: 51.509865, lng: -0.118092, name: 'London' },
-        // Add more locations here
-    ];
+    // Parse the URL parameters to get latitude and longitude
+    const urlParams = new URLSearchParams(window.location.search);
+    const latParam = urlParams.get("lat");
+    const lngParam = urlParams.get("lng");
 
-    // Create markers for each location
-    for (const location of locations) {
-        new google.maps.Marker({
-            position: { lat: location.lat, lng: location.lng },
+    if (latParam && lngParam) {
+        // If latitude and longitude parameters are provided in the URL, use them
+        initialCenter.lat = parseFloat(latParam);
+        initialCenter.lng = parseFloat(lngParam);
+    }
+
+    const map = new google.maps.Map(
+        document.getElementById("map"), {
+            zoom: 6, // Adjust the initial zoom level
+            center: initialCenter,
+        });
+
+    // Create an array of markers with their respective addresses
+    const markers = [{
+        address: "Point A",
+        lat: 28.6139,
+        lng: 77.2090
+    }, {
+        address: "Point B",
+        lat: 19.0760,
+        lng: 72.8777
+    }, {
+        address: "Point C",
+        lat: 12.9716,
+        lng: 77.5946
+    }];
+
+    // Loop through the markers and add them to the map
+    for (const markerData of markers) {
+        const marker = new google.maps.Marker({
+            position: {
+                lat: markerData.lat,
+                lng: markerData.lng
+            },
             map: map,
-            title: location.name,
+            title: markerData.address,
         });
     }
 }
