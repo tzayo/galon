@@ -43,6 +43,21 @@ p {
     font-size: 14px;
 }
 
+a {
+    display: inline-block;
+    margin-top: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+/* Link Styles */
+a:hover {
+    background-color: #0056b3;
+}
+
 /* Gallery Styles 
 
 .gallery {
@@ -92,19 +107,3 @@ img {
 }
 
 
-
-
-a {
-    display: inline-block;
-    margin-top: 10px;
-    background-color: #007BFF;
-    color: #fff;
-    text-decoration: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-}
-
-/* Link Styles */
-a:hover {
-    background-color: #0056b3;
-}
