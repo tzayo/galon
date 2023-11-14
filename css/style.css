@@ -30,17 +30,26 @@ header {
 }
 
 .gallery-item {
-    width: calc(33.33% - 10px); /* Adjust for 3 columns with spacing */
     margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    width: calc(33.33% - 10px); /* Adjust for 3 columns with spacing */
     padding: 15px;
     background-color: #fff;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
     text-align: center;
+}
+
+.gallery-item img {
+    max-width: 100%;
+    display: block;
 }
 
 img {
     max-width: 100%;
     height: auto;
+    display: block;
 }
 
 h2 {
